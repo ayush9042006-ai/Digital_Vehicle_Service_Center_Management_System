@@ -48,7 +48,6 @@ while True:
 
     if choice == "1":
         user_authentication()
-
     elif choice == "2":
         record_management()
 
