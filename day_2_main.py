@@ -4,11 +4,9 @@ def user_authentication():
     print("\n===== USER AUTHENTICATION =====")
     print("This module will be implemented later.")
 
-
 def record_management():
     print("\n===== RECORD MANAGEMENT =====")
     print("This module will be implemented later.")
-
 
 def search_functionality():
     print("\n===== SEARCH FUNCTIONALITY =====")
@@ -70,3 +68,4 @@ while True:
 
     else:
         print("\nInvalid Choice! Please enter a number between 1 and 7.")
+print("all result should be the same for ")
