@@ -69,3 +69,4 @@ while True:
     else:
         print("\nInvalid Choice! Please enter a number between 1 and 7.")
 print("all result should be the same for ")
+
