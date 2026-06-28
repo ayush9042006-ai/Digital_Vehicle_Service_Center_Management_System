@@ -1,8 +1,29 @@
+import auth
+
 # Digital Vehicle Service Center Management System
 
 def user_authentication():
-    print("\n===== USER AUTHENTICATION =====")
-    print("This module will be implemented later.")
+
+    while True:
+
+        print("\n========== USER AUTHENTICATION ==========")
+        print("1. Register")
+        print("2. Login")
+        print("3. Back")
+
+        choice = input("Enter Choice : ")
+
+        if choice == "1":
+            auth.register()
+
+        elif choice == "2":
+            auth.login()
+
+        elif choice == "3":
+            break
+
+        else:
+            print("Invalid Choice.")
 
 def record_management():
     print("\n===== RECORD MANAGEMENT =====")
@@ -21,6 +42,7 @@ def report_generation():
 def file_data_storage():
     print("\n===== FILE-BASED DATA STORAGE =====")
     print("This module will be implemented later.")
+
 
 
 def exception_validation():
